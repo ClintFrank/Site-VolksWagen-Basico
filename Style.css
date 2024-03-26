@@ -1,0 +1,100 @@
+:root {
+    --coredefundo: rgb(0, 0, 0);
+    --cor-hover: rgba(16, 31, 172, 0.863);
+    --cor-primaria: rgb(255, 255, 255);
+}
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.dp-menu ul {
+    background-color: var(--coredefundo);
+}
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration:none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+.dp-menu ul li a:hover {
+    background: var(--cor-hover);
+}
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+.dp-menu ul li:hover ul {
+    display: block;
+}
+.dp-menu ul ul {
+    width:  150px;
+}
+.dp-menu ul ul li a {
+    display:block;
+}
+.prom{
+    text-align: center;
+}
+.banner {
+    
+    background-image:
+    url(Photos/Novembro_Bluefriday_Novembro.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 600px;
+  }
+  .backimage {
+    
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+  }
+  :root {
+    --coredefundo: rgb(0, 0, 0);
+    --cor-primaria: rgb(255, 255, 255);
+}
+.dp-baixo ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.dp-baixo ul {
+    background-color: var(--coredefundo);
+}
+.dp-baixo ul li {
+    display: inline;
+    position: relative;
+}
+.dp-baixo ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+.dp-baixo ul li a:hover {
+    background: var(--cor-hover);
+}
+.dp-baixo ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+.dp-baixo ul li:hover ul {
+    display: block;
+}
+.dp-baixo ul ul {
+    width:  150px;
+}
+.dp-baixo ul ul li a {
+    display:block;
+}
